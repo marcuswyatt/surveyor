@@ -3,7 +3,7 @@ import PointPairBuilder from "./pointPairBuilder";
 it('should throw error when passing invalid input', () => {
     const pointPairBuilder = new PointPairBuilder();
     expect(() => pointPairBuilder.build(''))
-        .toThrow("Invalid rawCoordinates");
+        .toThrow("Please enter your coordinates!");
 });
 
 it('should throw error when passing incorrect input', () => {
